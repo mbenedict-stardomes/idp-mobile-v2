@@ -1,0 +1,46 @@
+R=0 G=178 B=214
+HEX 0 b2 d6
+RGB 0 178 214
+CMYK 73 7 11 0
+LAB 67 -30 -30
+GrayScale 50
+
+R=30 G=31 B=87
+HEX 1e 1f 57
+RGB 30 31 87
+CMYK 100 98 34 30
+LAB 15 14 -35
+GrayScale 86
+
+R=0 G=176 B=167
+HEX 0 b0 a7
+RGB 0 176 167
+CMYK 76 5 42 0
+LAB 65 -41 -7
+GrayScale 52
+
+R=230 G=230 B=230 1
+HEX e6 e6 e6
+RGB 230 230 230
+CMYK 9 6 6 0
+LAB 91 0 0
+GrayScale 10
+
+R=204 G=204 B=204 1
+HEX cc cc cc
+RGB 204 204 204
+CMYK 20 15 15 0
+LAB 82 0 0
+GrayScale 20
+
+images
+logo : 00_Common_Layer/99_Assets/images/stardomes_logo.svg
+Title ( Top Banner with Logo ) : 00_Common_Layer/99_Assets/images/stardomes_title_v1.png
+Email Signature ( Bottom Banner): 00_Common_Layer/99_Assets/images/STARDOMES EMAIL SIGNATURE copy.png
+
+Fonts
+00_Common_Layer/99_Assets/Fonts/decimal-bold-2.otf
+00_Common_Layer/99_Assets/Fonts/decimal-book-2.ttf
+00_Common_Layer/99_Assets/Fonts/decimal-extralight.ttf
+00_Common_Layer/99_Assets/Fonts/tahomabd.ttf
+

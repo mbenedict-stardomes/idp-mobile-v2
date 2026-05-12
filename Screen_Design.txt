@@ -1,0 +1,16 @@
+    Stardomes          v0.1b
+    ────────────────────────
+    Mode : RX
+    SNR :10.8dB High
+    RSSI :-31dBm High
+    Bat :85% 
+    Status : Decrypted
+
+
+    Stardomes          v0.1b
+    ────────────────────────
+    ID : 123456789ABCDEF0
+    MAC : aa:bb:cc:dd:ee:ff:gg
+    LORA : 915MHz SF9 BW125
+    Crypto : AES256-GCM
+    FEC : Off

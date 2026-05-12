@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Stardomes 2FA",
+    "slug": "stardomes-2fa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0B25"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ae.stardomes.authenticator",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Stardomes uses Face ID to authenticate transactions and unlock the app."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0B25"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "ae.stardomes.authenticator"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "react-native-ble-plx",
+        {
+          "isBackgroundEnabled": true,
+          "modes": [
+            "peripheral",
+            "central"
+          ],
+          "bluetoothAlwaysPermission": "Allow Stardomes to connect to the Stardomes 2FA satellite terminal."
+        }
+      ]
+    ]
+  }
+}
